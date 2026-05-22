@@ -47,4 +47,5 @@ formulario.addEventListener(`submit`, (e) => {
     criacaoDeTarefa(valorCapturado)
 
     ul.appendChild(botaoApagarTudo)
+    document.getElementById(`tarefa`).value = ``
 })
